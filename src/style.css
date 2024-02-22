@@ -1,1 +1,41 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  background: green;
+  padding-top: 50px;
+}
+
+.card {
+  background: white;
+  display: block;
+  margin: auto;
+  height: 400px;
+  width: 250px;
+  position: relative;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 20px;
+}
+.uppersuit {
+  position: absolute;
+  top: 0;
+  left: 20px;
+  font-size: 70px;
+}
+.number {
+  margin: auto;
+  position: absolute;
+  top: 33%;
+  left: 40%;
+  font-size: 80px;
+}
+.bottomsuit {
+  position: absolute;
+  bottom: 0;
+  right: 20px;
+  font-size: 70px;
+  transform: scale(1, -1);
+}
+.red-symbol {
+  color: red;
+}
+/*"♦", "♥", "♠", "♣"*/
